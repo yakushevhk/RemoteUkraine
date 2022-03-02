@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -19,20 +18,17 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-        We are out of politics, we do not ask for gratuitous financial assistance, we are good at what we do and ready to work remotely {' '}
+        TechnologyX OU
+        Tallinn {' '}
           <br></br><br></br><code className={styles.code}>We need your support</code>
         </p>
 
         <div className={styles.grid}>
-          Link
-          <Link href="/contacts">
-            <a className={styles.card}>
-
-           
+          <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Our mission &rarr;</h2>
             <p>What we have to do with this time and now already done</p>
           </a>
-          </Link>
+
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Contacts &rarr;</h2>
             <p>Contact us to get more views and likes so what exactly we do</p>
