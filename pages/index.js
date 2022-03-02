@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Link href="/">
+      <Link href="/">
       <Image src="/u.png" alt="RemoteUkraine" width={40} height={40} />
       </Link>
         <h1 className={styles.title}>
@@ -24,40 +24,45 @@ export default function Home() {
         We are out of politics, we do not ask for gratuitous financial assistance, we are good at what we do and ready to work remotely {' '}
           <br></br><br></br><code className={styles.code}>We need your support</code>
         </p>
+         <div className={styles.f400}>
+        <Image src="/freel.svg" alt="RemoteUkraine" width={158} height={60}/>
+        </div>
 
-        <div className={styles.grid}>
-          Link
-          <Link href="/contacts">
-            <a className={styles.card}>
+
+       
+        <div className={styles.inv3}>
+        <Link href="/skills">
+            <a className={styles.bb3}>
+              <h2>Our Community</h2>
+            </a>
+            </Link>
+            </div>
 
            
-            <h2>Our mission &rarr;</h2>
-            <p>What we have to do with this time and now already done</p>
-          </a>
-          </Link>
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Contacts &rarr;</h2>
-            <p>Contact us to get more views and likes so what exactly we do</p>
-          </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+        <div className={styles.inv}>
+            <a className={styles.bb}>
+              <h2>I'm an Employer</h2>
+            </a>
+            </div>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
+            <div className={styles.inv2}>
+            <a className={styles.bb2}>
+              <h2>Вказати резюме</h2>
+            </a>
+            </div>
+    
+
+
+
+
+      
+
+         
+
+
+
+     
       </main>
 
       <footer className={styles.footer}>

@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <main className={styles.main2}>
       <Link href="/">
       <Image src="/u.png" alt="RemoteUkraine" width={40} height={40} />
       </Link>
@@ -26,35 +26,7 @@ export default function Home() {
           <br></br><br></br><code className={styles.code}>We need your support</code>
         </p>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Our mission &rarr;</h2>
-            <p>What we have to do with this time and now already done</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Contacts &rarr;</h2>
-            <p>Contact us to get more views and likes so what exactly we do</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
+       
       </main>
 
       <footer className={styles.footer}>
