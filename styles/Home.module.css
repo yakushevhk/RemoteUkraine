@@ -199,6 +199,8 @@ border-radius: 14px;
 
 
 text-align: center;
+margin: auto;
+display: grid;
 font-size: 11px;
 color: #FFFFFF;
 
@@ -209,6 +211,8 @@ color: #FFFFFF;
 
 
   text-align: center;
+  margin: auto;
+  display: grid;
   font-size: 11px;
   color: #000000;
   
@@ -247,8 +251,9 @@ color: #FFFFFF;
   .bb3{
 
 
-
     text-align: center;
+    margin: auto;
+    display: grid;
     font-size: 11px;
     color: #000000;
     
