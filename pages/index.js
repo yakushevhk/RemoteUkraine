@@ -42,7 +42,7 @@ export default function Home() {
 
         <div className={styles.inv}>
             <a className={styles.bb}>
-              <h2>I'm an Employer</h2>
+              <h2>Im an Employer</h2>
             </a>
             </div>
 
