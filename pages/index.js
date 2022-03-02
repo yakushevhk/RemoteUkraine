@@ -31,7 +31,7 @@ export default function Home() {
 
        
         <div className={styles.inv3}>
-        <Link href="/skills">
+        <Link href="/skills" passHref>
             <a className={styles.bb3}>
               <h2>Our Community</h2>
             </a>
@@ -42,7 +42,7 @@ export default function Home() {
 
         <div className={styles.inv}>
             <a className={styles.bb}>
-              <h2>Im an Employer</h2>
+              <h2>I am an Employer</h2>
             </a>
             </div>
 
