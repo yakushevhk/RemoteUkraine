@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-      <Link href="/">
+      <Link href="/" passHref>
       <Image src="/u.png" alt="RemoteUkraine" width={40} height={40} />
       </Link>
         <h1 className={styles.title}>

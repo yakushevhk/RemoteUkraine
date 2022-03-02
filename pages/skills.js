@@ -31,7 +31,7 @@ export default function Home() {
 
         <p className={styles.description}>
         We have collected the main categories that are available, you are welcome :) {' '}
-          <br></br><br></br><code className={styles.code}>That's our skills</code>
+          <br></br><br></br><code className={styles.code}>Thats our skills</code>
         </p>
         
 
