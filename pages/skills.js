@@ -32,7 +32,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-        We have collected the main categories that are available, you are welcome :) {' '}
+        We have collected the main categories that are available, you are welcome :) But you can offer your options{' '}
           <br></br><br></br><code className={styles.code}>Thats our skills</code>
         </p>
         

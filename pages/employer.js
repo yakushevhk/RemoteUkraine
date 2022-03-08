@@ -42,18 +42,20 @@ export default function Home() {
        <div className={styles.list}>
            <h4>Only neutral tasks</h4>
            <h4>No politics</h4>
+           <h4>Only online jobs</h4>
+           <h4>English only</h4>
            <br></br>
           
        </div>
 
       
        <div className={styles.invB}>
-        <Link href="/" passHref>
-            <a className={styles.bbB}>
+        
+            <a href="https://sx9jnlfxlbh.typeform.com/to/MYKgz5JG" className={styles.bbB}>
               <h2>Send request</h2>
               
             </a>
-            </Link>
+       
             </div>
 
             <div className={styles.invA}>
