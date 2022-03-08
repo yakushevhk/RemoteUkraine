@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import splitbee from '@splitbee/web';
+splitbee.init()
 
 export default function Home() {
   return (
@@ -9,6 +11,7 @@ export default function Home() {
 
     
     <div className={styles.container}>
+      
         <div className={styles.back}>
             <Link href="/">
         <Image src="/back.svg" alt="RemoteUkraine" width={26} height={26} style="color:black"/> 
