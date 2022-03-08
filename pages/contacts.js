@@ -41,7 +41,7 @@ export default function Home() {
 
        <div className={styles.contacts}>
        <a   href="mailto:info@remoteukraine.space"> <h4>info@remoteukraine.space</h4> </a>
-          <a  href="https://twitter.com/remoteukrainespace"><h4>Twitter: remoteukrainespace</h4> </a> 
+          <a  href="https://twitter.com/ukraineremote"><h4>Twitter: remoteukrainespace</h4> </a> 
           <a href="https:/instagram.com/remoteukrainespace"><h4>Instagram: remoteukrainespace</h4> </a>
            
            <br></br>
