@@ -53,7 +53,7 @@ export default function Home() {
             </div>
 
             <div className={styles.inv2}>
-            <a href="https://sx9jnlfxlbh.typeform.com/to/UWKyNet7" className={styles.bb2}>
+            <a href="mailto:info@remoteukraine.space" className={styles.bb2}>
               <h2>Вказати резюме</h2>
             </a>
             </div>

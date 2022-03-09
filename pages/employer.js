@@ -51,7 +51,7 @@ export default function Home() {
       
        <div className={styles.invB}>
         
-            <a href="https://sx9jnlfxlbh.typeform.com/to/MYKgz5JG" className={styles.bbB}>
+            <a href="https://forms.gle/2isHxZnVvNLFS44B6" className={styles.bbB}>
               <h2>Send request</h2>
               
             </a>
